@@ -1,0 +1,515 @@
+*{
+    box-sizing: border-box;
+}
+
+.top{
+   display: flex;
+   align-items: center;  
+   position: sticky;
+   top: 0px; 
+   background-color: #221B28;
+}
+
+.mylogo{
+    border-radius: 100px;
+}
+
+body{
+    margin: 0;
+    background-color: #F9F1F1;
+}
+
+.menu{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    
+}
+
+.home{
+    text-decoration: none;
+    color: white;
+    font-weight:bold
+    
+ 
+}
+
+.skills{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.about{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.project{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.contact{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+
+}
+
+.button{
+    background-color: white;
+    font-weight: lighter;
+    cursor: pointer;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-top: 120px;
+    padding-bottom: 290px;
+}
+
+.hpara{
+    width:200px;
+    height: 100px;
+}
+
+.background2{
+    margin-left: -10px;
+    margin-right: -10px;
+    background-color: #221B28;
+    padding-bottom: 290px;
+}
+
+.sh1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    color:white;
+    text-align: center;
+}
+
+.skillbox{
+    display: grid;
+    justify-content: center;
+    text-align: center;
+    background-color: #221B28;
+    gap: 10px;
+    grid-template-columns: 100px 100px;
+}
+
+.html{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    width: 90px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    color:#221B28
+    
+}
+
+.html:hover{
+    width:100px;
+    height: 130px;
+    background-color: #8A2BE2;
+    color: white;
+
+}
+
+.css{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    width: 90px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    color:#221B28
+}
+
+.css:hover{
+    width:100px;
+    height: 130px;
+    background-color: #8A2BE2;
+    color: white;
+}
+
+.python{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    
+    width: 90px;
+    height: 120px;
+    background-color: white;
+    border-radius: 20px;
+    color:#221B28
+}
+
+.python:hover{
+    width:100px;
+    height: 130px;
+    background-color: #8A2BE2;
+    color: white;
+}
+
+.me{
+    background-color: #221B28;
+    margin-top: -24px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.abh1{
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    color:white;
+}
+
+.abst{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:30px;
+
+    align-items:start;
+}
+
+.impara{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.abimage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.abimage img{
+    width: 150px;
+    height: auto;
+
+
+}
+
+.abpara{
+    width:100%;
+    max-width: 400px;
+    margin: auto;
+    text-align: center;
+    line-height: 1.6;
+    color:white;
+}
+
+.abexpe{
+    border:2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 600px;
+    color: white;
+    padding: 20px;
+
+}
+
+.abedu{
+    border:2px solid white;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 300px;
+    color:white;
+    padding: 20px;
+
+}
+
+.rightbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.pro{
+    background-color: #221B28;
+    padding-bottom: 200px;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -25px;
+}
+
+.proimg{
+    padding-top: 40px;
+    margin-left: 80px;
+    
+}
+
+.prolay{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:40px;
+    
+}
+
+.proparag{
+    padding-top: 20px;
+    margin-top: 40px;
+    width: 100%;
+    max-width: 500px;
+    color:white;
+    border: 2px solid white;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.con{
+    background-color: #F9F1F1;
+}
+
+.cont{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:20px;
+}
+
+input,textarea{
+    width: 100%;
+    max-width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.big-box{
+    height: 40px;
+}
+
+.iconsize{
+    padding-top: 10px;
+    text-align: center;
+}
+
+.connh1{
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+    color:black;
+}
+
+.connform{
+    width:100%;
+    max-width: 300px;
+    height: 360px;
+    border: 3px solid black;
+    border-radius: 12px;
+    margin: auto;
+}
+
+.conform{
+    margin-top: 35px;
+}
+
+.phonemail{
+    width: 390px;
+    height: 350px;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.with{
+    margin-top: 100px;
+    text-align: center;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+}
+
+.with1{
+    text-align: center;
+    color: black;
+}
+
+.footer{
+    text-align: center;
+    font-size:small;
+    padding-top: 10px;
+}
+
+.submit{
+    width: 250px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: lightgrey;
+    cursor: pointer;
+
+}
+
+.clean{
+    padding-left: 10px;
+}
+
+@media (max-width:768px){
+
+    .top{
+        flex-direction: column;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .menu{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .hero{
+        flex-direction: column;
+        text-align: center;
+        padding-top: 60px;
+        padding-bottom: 100px;
+    }
+
+    .hpara{
+        width: 100%;
+        max-width: 300px;
+        height: auto;
+    }
+
+    .abst{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .prolay{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .proimg img{
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .proimg{
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .cont{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+
+    .phonemail{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    .connform{
+        width: 100%;
+        height: auto;
+        padding: 20px;
+    }
+
+    input,
+    textarea,
+    .submit{
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .background2,
+    .me,
+    .pro{
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (min-width:769px) and (max-width:1024px){
+
+    .hero{
+        padding-bottom: 150px;
+    }
+
+    .abst{
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+
+    .prolay{
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+
+    .cont{
+        grid-template-columns: 1fr;
+        padding: 30px;
+    }
+
+    .proimg{
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .proimg img{
+        width: 90%;
+        height: auto;
+    }
+
+    .phonemail{
+        width: 100%;
+    }
+
+    .connform{
+        width: 100%;
+    }
+}
+
+@media (min-width:1440px){
+
+    .hero{
+        gap: 100px;
+    }
+
+    .abst{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .prolay{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .cont{
+        padding-left: 150px;
+        padding-right: 150px;
+    }
+
+    .skillbox{
+        grid-template-columns: repeat(3,150px);
+        gap: 30px;
+    }
+}
